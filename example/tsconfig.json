@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "apple-healthkit-export": ["../src/index"],
+      "apple-healthkit-export/*": ["../src/*"]
+    }
+  }
+}
