@@ -17,4 +17,4 @@ const withInfoPlistPlugin = (config, props) =>
     return config;
   });
 
-export default withInfoPlistPlugin;
+module.exports = withInfoPlistPlugin;
